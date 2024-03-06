@@ -6,27 +6,34 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #fafafa;
 }
 
 .container {
-    width: 400px;
+    width: 300px;
+    text-align: center;
 }
 
-.sign-in-form, .registration-form {
+.login-form, .signup-form {
     background-color: #fff;
-    padding: 50px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.sign-in-form h2, .registration-form h2 {
+.login-form img, .signup-form img {
+    width: 100px;
     margin-bottom: 20px;
-    text-align: center;
+}
+
+.login-form h2, .signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
 }
 
 .input-group {
     margin-bottom: 15px;
+    text-align: left;
 }
 
 .input-group label {
@@ -41,14 +48,14 @@ body {
     border-radius: 3px;
 }
 
-.button-group, .sign-in-form p, .registration-form p {
+.button-group, .login-form p, .signup-form p {
     text-align: center;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #3897f0;
     color: white;
     border: none;
     border-radius: 3px;
@@ -56,14 +63,14 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #287fb8;
 }
 
-.sign-in-form p a, .registration-form p a {
-    color: #1e90ff;
+.login-form p a, .signup-form p a {
+    color: #3897f0;
     text-decoration: none;
 }
 
-.sign-in-form p a:hover, .registration-form p a:hover {
+.login-form p a:hover, .signup-form p a:hover {
     text-decoration: underline;
 }
