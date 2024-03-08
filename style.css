@@ -14,19 +14,22 @@ body {
     text-align: center;
 }
 
-.login-form, .signup-form {
+.login-form,
+.signup-form {
     background-color: #fff;
     padding: 50px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.login-form img, .signup-form img {
+.login-form img,
+.signup-form img {
     width: 100px;
     margin-bottom: 20px;
 }
 
-.login-form h2, .signup-form h2 {
+.login-form h2,
+.signup-form h2 {
     margin-bottom: 20px;
     font-size: 1.2em;
 }
@@ -48,7 +51,9 @@ body {
     border-radius: 3px;
 }
 
-.button-group, .login-form p, .signup-form p {
+.button-group,
+.login-form p,
+.signup-form p {
     text-align: center;
 }
 
@@ -66,21 +71,26 @@ button:hover {
     background-color: #287fb8;
 }
 
-.login-form p a, .signup-form p a {
+.login-form p a,
+.signup-form p a {
     color: #3897f0;
     text-decoration: none;
 }
 
-.login-form p a:hover, .signup-form p a:hover {
+.login-form p a:hover,
+.signup-form p a:hover {
     text-decoration: underline;
 }
+
 .image {
     height: 80px;
     width: 150px;
 }
+
 .or {
     font-weight: bold;
 }
+
 .facebook-link {
     display: inline-block;
     margin-top: 10px;
@@ -91,4 +101,3 @@ button:hover {
 .facebook-link:hover {
     text-decoration: underline;
 }
-
