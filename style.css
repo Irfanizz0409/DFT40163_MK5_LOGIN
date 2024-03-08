@@ -78,3 +78,17 @@ button:hover {
     height: 80px;
     width: 150px;
 }
+.or {
+    font-weight: bold;
+}
+.facebook-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #385185;
+    text-decoration: none;
+}
+
+.facebook-link:hover {
+    text-decoration: underline;
+}
+
