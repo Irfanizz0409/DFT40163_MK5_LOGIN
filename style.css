@@ -92,7 +92,8 @@ button:hover {
 }
 
 .facebook-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     margin-top: 10px;
     color: #385185;
     text-decoration: none;
@@ -100,4 +101,9 @@ button:hover {
 
 .facebook-link:hover {
     text-decoration: underline;
+}
+
+.facebook-link img {
+    width: 20px;
+    margin-right: 5px;
 }
